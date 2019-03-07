@@ -247,17 +247,13 @@ The page you see should be the same one you were given when you tested earlier:
 
 Tomcat root
 
-Let's take a look at the Manager App, accessible via the link or http://server_domain_or_IP:8080/manager/html. You will need to enter the account credentials that you added to the tomcat-users.xml file. Afterwards, you should see a page that looks like this:
-    https://assets.digitalocean.com/articles/tomcat8_1604/manager.png
-    
+Let's take a look at the Manager App, accessible via the link or http://server_domain_or_IP:8080/manager/html. You will need to enter the account credentials that you added to the tomcat-users.xml file. Afterwards, you should see a page that looks like this:https://assets.digitalocean.com/articles/tomcat8_1604/manager.png
 Tomcat Web Application Manager
 
 The Web Application Manager is used to manage your Java applications. You can Start, Stop, Reload, Deploy, and Undeploy here. You can also run some diagnostics on your apps (i.e. find memory leaks). Lastly, information about your server is available at the very bottom of this page.
 
 Now let's take a look at the Host Manager, accessible via the link or http://server_domain_or_IP:8080/host-manager/html/:
-
-    https://assets.digitalocean.com/articles/tomcat8_1604/host-manager.png
-
+https://assets.digitalocean.com/articles/tomcat8_1604/host-manager.png
 Tomcat Virtual Host Manager
 
 From the Virtual Host Manager page, you can add virtual hosts to serve your applications from.
