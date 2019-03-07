@@ -60,7 +60,7 @@ We’ll use the curl command-line tool to download the tarball. Install curl:
 
 Now, use curl to download the link that you copied from the Tomcat website:
 
-    curl -O http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.11/bin/apache-tomcat-9.0.11.tar.gz
+    curl -O http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.16/bin/apache-tomcat-9.0.16.tar.gz
 
 We will install Tomcat to the /opt/tomcat directory. Create the directory, then extract the archive to it with these commands:
 
