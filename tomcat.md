@@ -159,15 +159,15 @@ Double check that it started without errors by typing:
 
 You should see output similar to the following:
 
-    Output
-    ? tomcat.service - Apache Tomcat Web Application Container
-    Loaded: loaded (/etc/systemd/system/tomcat.service; disabled; vendor preset: enabled)
-    Active: active (running) since Wed 2018-09-05 20:47:44 UTC; 3s ago
-    Process: 9037 ExecStart=/opt/tomcat/bin/startup.sh (code=exited, status=0/SUCCESS)
-    Main PID: 9046 (java)
-    Tasks: 46 (limit: 4915)
-    CGroup: /system.slice/tomcat.service
-           +-9046 /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -Djava.util.logging.config.file=/opt/tomcat        /conf/logging.properties -Dja
+        Output
+    ● tomcat.service - Apache Tomcat Web Application Container
+       Loaded: loaded (/etc/systemd/system/tomcat.service; disabled; vendor preset: enabled)
+       Active: active (running) since Wed 2018-09-05 20:47:44 UTC; 3s ago
+      Process: 9037 ExecStart=/opt/tomcat/bin/startup.sh (code=exited, status=0/SUCCESS)
+     Main PID: 9046 (java)
+        Tasks: 46 (limit: 4915)
+       CGroup: /system.slice/tomcat.service
+               └─9046 /usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties -Dja
 
     Sep 05 20:47:44 tomcat systemd[1]: Starting Apache Tomcat Web Application Container...
     Sep 05 20:47:44 tomcat systemd[1]: Started Apache Tomcat Web Application Container.
